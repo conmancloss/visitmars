@@ -1,6 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+}
 body{
     background-color: #b7410e;
+    min-width: 100vh;
 }
-h1{
-    font-family: ;
+nav{
+ background-color: #803B20;
+ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1)
 }
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #74361d;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0%;
+  display: block;
+  padding: 0;
+ margin: 0;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Audiowide", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 300%;
+  margin: 0;
+  padding: 0;
+}
+
