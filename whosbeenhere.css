@@ -83,13 +83,15 @@ h5{
 who ul {
   list-style: none; 
     padding: 20px;
-    
+    align-items: center;
+    display: flex;
 }
 
 who li {
   float: left; /* Floats list items to the left */
   margin-right: 10px;
-  padding-left: 60px;
+  padding-left: 10px;
+  align-items: center;
 }
 
 who img {
@@ -99,4 +101,14 @@ who img:hover {
   border-radius: 20px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
+.checked {
+  color: rgb(255, 213, 0);
+}
+.checkeds {
+  color: rgb(255, 0, 0);
+}
+imgnav img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}

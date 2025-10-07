@@ -136,3 +136,9 @@ a{
 embed{
     padding-bottom: 50px;
 }
+imgnav img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+
