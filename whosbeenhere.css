@@ -4,6 +4,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
@@ -13,7 +14,7 @@ body{
 
 nav{
  background-color: #803B20;
- box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1)
+ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul{
@@ -53,10 +54,8 @@ p{
     padding-top: 20px;
 }
 img{
-    width: 80%;
-    height: 50%;
-    padding-top: 20px;
-    border-radius: 80px;
+    width: 200px;
+    height: 100%;
 }
 h2{
     font-size: 30px;
@@ -71,3 +70,33 @@ h3{
     color: white;
     font-size: 30px;
 }
+h4{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+h5{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+who ul {
+  list-style: none; 
+    padding: 20px;
+    
+}
+
+who li {
+  float: left; /* Floats list items to the left */
+  margin-right: 10px;
+  padding-left: 60px;
+}
+
+who img {
+  border-radius: 20px;
+}
+who img:hover {
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
